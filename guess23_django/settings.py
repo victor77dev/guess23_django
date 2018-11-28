@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Redirect to / after login instead of going to accounts/profile
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
