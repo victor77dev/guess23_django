@@ -29,6 +29,8 @@ ALLOWED_HOSTS = []
 
 # Redirect to / after login instead of going to accounts/profile
 LOGIN_REDIRECT_URL = '/'
+# Redirect to / after logout instead of going to accounts/profile
+LOGOUT_REDIRECT_URL = '/'
 
 # Application definition
 
