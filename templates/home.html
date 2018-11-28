@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Guess 2/3{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}! Welcome to Guess 2/3!
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}
